@@ -1,0 +1,12 @@
+﻿@page
+@model AWS.Domain.S3FileModel
+
+<h1>File Upload</h1>
+
+<form method="post" action="/S3File/UploadFile" enctype="multipart/form-data">
+    <div class="form-group">
+        <label for="file">Select a file to upload:</label>
+        <input type="file" name="file" id="file" class="form-control-file" required />
+    </div>
+    <button type="submit" class="btn btn-primary">Upload</button>
+</form>

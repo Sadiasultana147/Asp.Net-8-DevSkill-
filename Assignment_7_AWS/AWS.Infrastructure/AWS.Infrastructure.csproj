@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="7.1.0" />
+    <PackageReference Include="AWSSDK.DynamoDBv2" Version="3.7.203.7" />
+    <PackageReference Include="AWSSDK.S3" Version="3.7.205.15" />
+    <PackageReference Include="AWSSDK.SQS" Version="3.7.200.60" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AWS.Application\AWS.Application.csproj" />
+  </ItemGroup>
+
+</Project>

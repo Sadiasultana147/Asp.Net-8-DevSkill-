@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Dkh2mmaUg2OWtAhaZQEkNBSlzLk4VQJ5moHV7IROxxpBT0W9UcIEXJ9Up2KdIuQ+0Zq56b1FVu1kF5I499zCXA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\HP\\Music\\Asp.Net-8-DevSkill-\\Assignment_7_AWS\\AWS.Domain\\AWS.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\HP\\.nuget\\packages\\awssdk.core\\3.7.204.6\\awssdk.core.3.7.204.6.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\awssdk.dynamodbv2\\3.7.203.7\\awssdk.dynamodbv2.3.7.203.7.nupkg.sha512"
+  ],
+  "logs": []
+}

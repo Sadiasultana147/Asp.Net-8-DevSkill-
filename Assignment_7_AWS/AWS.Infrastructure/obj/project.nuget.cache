@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "glhgoZQ+xIFDapeiMgmj70dS4A47CFyduBp+XwrNafT2Yz8JVoQazOdzSBfxP6yjQjbKReuFiz33g3WN9QHbWQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\HP\\Music\\Asp.Net-8-DevSkill-\\Assignment_7_AWS\\AWS.Infrastructure\\AWS.Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\HP\\.nuget\\packages\\autofac\\7.1.0\\autofac.7.1.0.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\awssdk.core\\3.7.204.6\\awssdk.core.3.7.204.6.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\awssdk.dynamodbv2\\3.7.203.7\\awssdk.dynamodbv2.3.7.203.7.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\awssdk.s3\\3.7.205.15\\awssdk.s3.3.7.205.15.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\awssdk.sqs\\3.7.200.60\\awssdk.sqs.3.7.200.60.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

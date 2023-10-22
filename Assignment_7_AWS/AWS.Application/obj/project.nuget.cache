@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "RsGh34AoEPlFEGTPK6UzO3h03rm7+JyUurqu1EyUcA8DFgveRRhxpi/80bDhbUvU6MA09l6VKaqtRN+9wF+/YA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\HP\\Music\\Asp.Net-8-DevSkill-\\Assignment_7_AWS\\AWS.Application\\AWS.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\HP\\.nuget\\packages\\awssdk.core\\3.7.204.6\\awssdk.core.3.7.204.6.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\awssdk.dynamodbv2\\3.7.203.7\\awssdk.dynamodbv2.3.7.203.7.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

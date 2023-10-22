@@ -1,0 +1,17 @@
+C:\Users\HP\Music\Asp.Net-8-DevSkill-\Assignment_7_AWS\AWS.Infrastructure\bin\Debug\net7.0\AWS.Infrastructure.deps.json
+C:\Users\HP\Music\Asp.Net-8-DevSkill-\Assignment_7_AWS\AWS.Infrastructure\bin\Debug\net7.0\AWS.Infrastructure.dll
+C:\Users\HP\Music\Asp.Net-8-DevSkill-\Assignment_7_AWS\AWS.Infrastructure\bin\Debug\net7.0\AWS.Infrastructure.pdb
+C:\Users\HP\Music\Asp.Net-8-DevSkill-\Assignment_7_AWS\AWS.Infrastructure\bin\Debug\net7.0\AWS.Application.dll
+C:\Users\HP\Music\Asp.Net-8-DevSkill-\Assignment_7_AWS\AWS.Infrastructure\bin\Debug\net7.0\AWS.Domain.dll
+C:\Users\HP\Music\Asp.Net-8-DevSkill-\Assignment_7_AWS\AWS.Infrastructure\bin\Debug\net7.0\AWS.Application.pdb
+C:\Users\HP\Music\Asp.Net-8-DevSkill-\Assignment_7_AWS\AWS.Infrastructure\bin\Debug\net7.0\AWS.Domain.pdb
+C:\Users\HP\Music\Asp.Net-8-DevSkill-\Assignment_7_AWS\AWS.Infrastructure\obj\Debug\net7.0\AWS.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\HP\Music\Asp.Net-8-DevSkill-\Assignment_7_AWS\AWS.Infrastructure\obj\Debug\net7.0\AWS.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Music\Asp.Net-8-DevSkill-\Assignment_7_AWS\AWS.Infrastructure\obj\Debug\net7.0\AWS.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\HP\Music\Asp.Net-8-DevSkill-\Assignment_7_AWS\AWS.Infrastructure\obj\Debug\net7.0\AWS.Infrastructure.AssemblyInfo.cs
+C:\Users\HP\Music\Asp.Net-8-DevSkill-\Assignment_7_AWS\AWS.Infrastructure\obj\Debug\net7.0\AWS.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\HP\Music\Asp.Net-8-DevSkill-\Assignment_7_AWS\AWS.Infrastructure\obj\Debug\net7.0\AWS.Infrastructure.csproj.CopyComplete
+C:\Users\HP\Music\Asp.Net-8-DevSkill-\Assignment_7_AWS\AWS.Infrastructure\obj\Debug\net7.0\AWS.Infrastructure.dll
+C:\Users\HP\Music\Asp.Net-8-DevSkill-\Assignment_7_AWS\AWS.Infrastructure\obj\Debug\net7.0\refint\AWS.Infrastructure.dll
+C:\Users\HP\Music\Asp.Net-8-DevSkill-\Assignment_7_AWS\AWS.Infrastructure\obj\Debug\net7.0\AWS.Infrastructure.pdb
+C:\Users\HP\Music\Asp.Net-8-DevSkill-\Assignment_7_AWS\AWS.Infrastructure\obj\Debug\net7.0\ref\AWS.Infrastructure.dll
