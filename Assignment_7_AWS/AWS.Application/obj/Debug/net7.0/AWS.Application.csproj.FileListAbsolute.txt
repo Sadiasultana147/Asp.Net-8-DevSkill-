@@ -1,0 +1,15 @@
+C:\Users\HP\Music\Asp.Net-8-DevSkill-\Assignment_7_AWS\AWS.Application\bin\Debug\net7.0\AWS.Application.deps.json
+C:\Users\HP\Music\Asp.Net-8-DevSkill-\Assignment_7_AWS\AWS.Application\bin\Debug\net7.0\AWS.Application.dll
+C:\Users\HP\Music\Asp.Net-8-DevSkill-\Assignment_7_AWS\AWS.Application\bin\Debug\net7.0\AWS.Application.pdb
+C:\Users\HP\Music\Asp.Net-8-DevSkill-\Assignment_7_AWS\AWS.Application\bin\Debug\net7.0\AWS.Domain.dll
+C:\Users\HP\Music\Asp.Net-8-DevSkill-\Assignment_7_AWS\AWS.Application\bin\Debug\net7.0\AWS.Domain.pdb
+C:\Users\HP\Music\Asp.Net-8-DevSkill-\Assignment_7_AWS\AWS.Application\obj\Debug\net7.0\AWS.Application.csproj.AssemblyReference.cache
+C:\Users\HP\Music\Asp.Net-8-DevSkill-\Assignment_7_AWS\AWS.Application\obj\Debug\net7.0\AWS.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Music\Asp.Net-8-DevSkill-\Assignment_7_AWS\AWS.Application\obj\Debug\net7.0\AWS.Application.AssemblyInfoInputs.cache
+C:\Users\HP\Music\Asp.Net-8-DevSkill-\Assignment_7_AWS\AWS.Application\obj\Debug\net7.0\AWS.Application.AssemblyInfo.cs
+C:\Users\HP\Music\Asp.Net-8-DevSkill-\Assignment_7_AWS\AWS.Application\obj\Debug\net7.0\AWS.Application.csproj.CoreCompileInputs.cache
+C:\Users\HP\Music\Asp.Net-8-DevSkill-\Assignment_7_AWS\AWS.Application\obj\Debug\net7.0\AWS.Application.csproj.CopyComplete
+C:\Users\HP\Music\Asp.Net-8-DevSkill-\Assignment_7_AWS\AWS.Application\obj\Debug\net7.0\AWS.Application.dll
+C:\Users\HP\Music\Asp.Net-8-DevSkill-\Assignment_7_AWS\AWS.Application\obj\Debug\net7.0\refint\AWS.Application.dll
+C:\Users\HP\Music\Asp.Net-8-DevSkill-\Assignment_7_AWS\AWS.Application\obj\Debug\net7.0\AWS.Application.pdb
+C:\Users\HP\Music\Asp.Net-8-DevSkill-\Assignment_7_AWS\AWS.Application\obj\Debug\net7.0\ref\AWS.Application.dll

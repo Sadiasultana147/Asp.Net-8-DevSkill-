@@ -1,0 +1,353 @@
+2023-10-23 00:02:33.060 +06:00 [INF] Application Starting...
+2023-10-23 00:03:03.805 +06:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+AWS.WEB.Controllers.BookController.BookList (AWS.WEB)
+AWS.WEB.Controllers.BookController.BookList (AWS.WEB)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-10-23 00:03:04.517 +06:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+AWS.WEB.Controllers.BookController.BookList (AWS.WEB)
+AWS.WEB.Controllers.BookController.BookList (AWS.WEB)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-10-23 00:05:16.168 +06:00 [INF] Application Starting...
+2023-10-23 00:08:57.540 +06:00 [INF] Application Starting...
+2023-10-23 00:10:22.650 +06:00 [INF] Application Starting...
+2023-10-23 00:11:34.265 +06:00 [INF] Application Starting...
+2023-10-23 00:13:45.409 +06:00 [INF] Application Starting...
+2023-10-23 00:15:23.840 +06:00 [INF] Application Starting...
+2023-10-23 00:20:57.199 +06:00 [INF] Application Starting...
+2023-10-23 00:23:17.623 +06:00 [INF] Application Starting...
+2023-10-23 00:23:58.802 +06:00 [INF] Application Starting...
+2023-10-23 00:25:47.189 +06:00 [INF] Application Starting...
+2023-10-23 00:26:30.310 +06:00 [INF] Application Starting...
+2023-10-23 00:29:05.793 +06:00 [INF] Application Starting...
+2023-10-23 00:30:19.164 +06:00 [INF] Application Starting...
+2023-10-23 00:36:48.653 +06:00 [INF] Application Starting...
+2023-10-23 00:39:47.153 +06:00 [INF] Application Starting...
+2023-10-23 00:40:31.484 +06:00 [INF] Application Starting...
+2023-10-23 00:42:34.885 +06:00 [INF] Application Starting...
+2023-10-23 00:42:55.807 +06:00 [INF] Application Starting...
+2023-10-23 00:44:44.014 +06:00 [INF] Application Starting...
+2023-10-23 00:46:04.650 +06:00 [INF] Application Starting...
+2023-10-23 00:46:54.534 +06:00 [INF] Application Starting...
+2023-10-23 00:55:32.170 +06:00 [INF] Application Starting...
+2023-10-23 00:57:09.761 +06:00 [INF] Application Starting...
+2023-10-23 01:01:44.190 +06:00 [INF] Application Starting...
+2023-10-23 01:12:17.558 +06:00 [INF] Application Starting...
+2023-10-23 01:12:29.097 +06:00 [ERR] An unhandled exception has occurred while executing the request.
+Amazon.DynamoDBv2.Model.ResourceNotFoundException: Requested resource not found: Table: Book not found
+ ---> Amazon.Runtime.Internal.HttpErrorResponseException: Exception of type 'Amazon.Runtime.Internal.HttpErrorResponseException' was thrown.
+   at Amazon.Runtime.HttpWebRequestMessage.GetResponse()
+   at Amazon.Runtime.Internal.HttpHandler`1.InvokeSync(IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.PipelineHandler.InvokeSync(IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.Unmarshaller.InvokeSync(IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.PipelineHandler.InvokeSync(IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.ErrorHandler.InvokeSync(IExecutionContext executionContext)
+   --- End of inner exception stack trace ---
+   at Amazon.Runtime.Internal.HttpErrorResponseExceptionHandler.HandleExceptionStream(IRequestContext requestContext, IWebResponseData httpErrorResponse, HttpErrorResponseException exception, Stream responseStream)
+   at Amazon.Runtime.Internal.HttpErrorResponseExceptionHandler.HandleException(IExecutionContext executionContext, HttpErrorResponseException exception)
+   at Amazon.Runtime.Internal.ExceptionHandler`1.Handle(IExecutionContext executionContext, Exception exception)
+   at Amazon.Runtime.Internal.ErrorHandler.ProcessException(IExecutionContext executionContext, Exception exception)
+   at Amazon.Runtime.Internal.ErrorHandler.InvokeSync(IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.PipelineHandler.InvokeSync(IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.CallbackHandler.InvokeSync(IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.PipelineHandler.InvokeSync(IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.Signer.InvokeSync(IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.PipelineHandler.InvokeSync(IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.EndpointDiscoveryHandler.InvokeSync(IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.PipelineHandler.InvokeSync(IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.ChecksumHandler.InvokeSync(IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.PipelineHandler.InvokeSync(IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.CredentialsRetriever.InvokeSync(IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.PipelineHandler.InvokeSync(IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.RetryHandler.InvokeSync(IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.PipelineHandler.InvokeSync(IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.CompressionHandler.InvokeSync(IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.PipelineHandler.InvokeSync(IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.CallbackHandler.InvokeSync(IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.PipelineHandler.InvokeSync(IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.BaseEndpointResolver.InvokeSync(IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.PipelineHandler.InvokeSync(IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.Marshaller.InvokeSync(IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.PipelineHandler.InvokeSync(IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.CallbackHandler.InvokeSync(IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.PipelineHandler.InvokeSync(IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.ErrorCallbackHandler.InvokeSync(IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.PipelineHandler.InvokeSync(IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.MetricsHandler.InvokeSync(IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.RuntimePipeline.InvokeSync(IExecutionContext executionContext)
+   at Amazon.Runtime.AmazonServiceClient.Invoke[TResponse](AmazonWebServiceRequest request, InvokeOptionsBase options)
+   at Amazon.DynamoDBv2.AmazonDynamoDBClient.DescribeTable(DescribeTableRequest request)
+   at Amazon.DynamoDBv2.DocumentModel.Table.DescribeTable(String tableName)
+   at Amazon.Runtime.Internal.Util.Cache`2.GetValueHelper(TKey key, Boolean& isStaleItem, Func`2 creator)
+   at Amazon.Runtime.Internal.Util.Cache`2.GetValue(TKey key, Func`2 creator, Boolean& isStaleItem)
+   at Amazon.DynamoDBv2.DocumentModel.Table.LoadTableInfo(ICache`2 tableDescriptionCache)
+   at Amazon.DynamoDBv2.DocumentModel.Table.LoadTable(IAmazonDynamoDB ddbClient, TableConfig config)
+   at Amazon.DynamoDBv2.DataModel.DynamoDBContext.GetUnconfiguredTable(String tableName, Boolean disableFetchingTableMetadata)
+   at Amazon.DynamoDBv2.DataModel.DynamoDBContext.GetTargetTable(ItemStorageConfig storageConfig, DynamoDBFlatConfig flatConfig, DynamoDBConsumer consumer)
+   at Amazon.DynamoDBv2.DataModel.DynamoDBContext.LoadHelperAsync[T](Key key, DynamoDBFlatConfig flatConfig, ItemStorageConfig storageConfig, CancellationToken cancellationToken)
+   at AWS.Infrastructure.DynamoDbService.GetBookByIdAsync(Int32 bookId) in C:\Users\HP\Music\Asp.Net-8-DevSkill-\Assignment_7_AWS\AWS.Infrastructure\DynamoDbService.cs:line 64
+   at AWS.WEB.Controllers.BookController.EditBook(Int32 bookId) in C:\Users\HP\Music\Asp.Net-8-DevSkill-\Assignment_7_AWS\AWS.WEB\Controllers\BookController.cs:line 81
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-10-23 01:25:07.129 +06:00 [INF] Application Starting...
+2023-10-23 01:28:27.775 +06:00 [INF] Application Starting...
+2023-10-23 01:28:48.680 +06:00 [ERR] An unhandled exception has occurred while executing the request.
+Amazon.DynamoDBv2.Model.ResourceNotFoundException: Requested resource not found: Table: Book not found
+ ---> Amazon.Runtime.Internal.HttpErrorResponseException: Exception of type 'Amazon.Runtime.Internal.HttpErrorResponseException' was thrown.
+   at Amazon.Runtime.HttpWebRequestMessage.GetResponse()
+   at Amazon.Runtime.Internal.HttpHandler`1.InvokeSync(IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.PipelineHandler.InvokeSync(IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.Unmarshaller.InvokeSync(IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.PipelineHandler.InvokeSync(IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.ErrorHandler.InvokeSync(IExecutionContext executionContext)
+   --- End of inner exception stack trace ---
+   at Amazon.Runtime.Internal.HttpErrorResponseExceptionHandler.HandleExceptionStream(IRequestContext requestContext, IWebResponseData httpErrorResponse, HttpErrorResponseException exception, Stream responseStream)
+   at Amazon.Runtime.Internal.HttpErrorResponseExceptionHandler.HandleException(IExecutionContext executionContext, HttpErrorResponseException exception)
+   at Amazon.Runtime.Internal.ExceptionHandler`1.Handle(IExecutionContext executionContext, Exception exception)
+   at Amazon.Runtime.Internal.ErrorHandler.ProcessException(IExecutionContext executionContext, Exception exception)
+   at Amazon.Runtime.Internal.ErrorHandler.InvokeSync(IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.PipelineHandler.InvokeSync(IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.CallbackHandler.InvokeSync(IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.PipelineHandler.InvokeSync(IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.Signer.InvokeSync(IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.PipelineHandler.InvokeSync(IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.EndpointDiscoveryHandler.InvokeSync(IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.PipelineHandler.InvokeSync(IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.ChecksumHandler.InvokeSync(IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.PipelineHandler.InvokeSync(IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.CredentialsRetriever.InvokeSync(IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.PipelineHandler.InvokeSync(IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.RetryHandler.InvokeSync(IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.PipelineHandler.InvokeSync(IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.CompressionHandler.InvokeSync(IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.PipelineHandler.InvokeSync(IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.CallbackHandler.InvokeSync(IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.PipelineHandler.InvokeSync(IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.BaseEndpointResolver.InvokeSync(IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.PipelineHandler.InvokeSync(IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.Marshaller.InvokeSync(IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.PipelineHandler.InvokeSync(IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.CallbackHandler.InvokeSync(IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.PipelineHandler.InvokeSync(IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.ErrorCallbackHandler.InvokeSync(IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.PipelineHandler.InvokeSync(IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.MetricsHandler.InvokeSync(IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.RuntimePipeline.InvokeSync(IExecutionContext executionContext)
+   at Amazon.Runtime.AmazonServiceClient.Invoke[TResponse](AmazonWebServiceRequest request, InvokeOptionsBase options)
+   at Amazon.DynamoDBv2.AmazonDynamoDBClient.DescribeTable(DescribeTableRequest request)
+   at Amazon.DynamoDBv2.DocumentModel.Table.DescribeTable(String tableName)
+   at Amazon.Runtime.Internal.Util.Cache`2.GetValueHelper(TKey key, Boolean& isStaleItem, Func`2 creator)
+   at Amazon.Runtime.Internal.Util.Cache`2.GetValue(TKey key, Func`2 creator, Boolean& isStaleItem)
+   at Amazon.DynamoDBv2.DocumentModel.Table.LoadTableInfo(ICache`2 tableDescriptionCache)
+   at Amazon.DynamoDBv2.DocumentModel.Table.LoadTable(IAmazonDynamoDB ddbClient, TableConfig config)
+   at Amazon.DynamoDBv2.DataModel.DynamoDBContext.GetUnconfiguredTable(String tableName, Boolean disableFetchingTableMetadata)
+   at Amazon.DynamoDBv2.DataModel.DynamoDBContext.GetTargetTable(ItemStorageConfig storageConfig, DynamoDBFlatConfig flatConfig, DynamoDBConsumer consumer)
+   at Amazon.DynamoDBv2.DataModel.DynamoDBContext.SaveHelperAsync(Type valueType, Object value, DynamoDBOperationConfig operationConfig, CancellationToken cancellationToken)
+   at Amazon.DynamoDBv2.DataModel.DynamoDBContext.SaveHelperAsync[T](T value, DynamoDBOperationConfig operationConfig, CancellationToken cancellationToken)
+   at AWS.Infrastructure.DynamoDbService.EditBookAsync(Book book) in C:\Users\HP\Music\Asp.Net-8-DevSkill-\Assignment_7_AWS\AWS.Infrastructure\DynamoDbService.cs:line 90
+   at AWS.WEB.Controllers.BookController.UpdateBook(Book book) in C:\Users\HP\Music\Asp.Net-8-DevSkill-\Assignment_7_AWS\AWS.WEB\Controllers\BookController.cs:line 99
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-10-23 01:32:04.702 +06:00 [INF] Application Starting...
+2023-10-23 01:33:06.743 +06:00 [INF] Application Starting...
+2023-10-23 01:39:10.743 +06:00 [INF] Application Starting...
+2023-10-23 01:43:50.636 +06:00 [INF] Application Starting...
+2023-10-23 01:49:30.927 +06:00 [INF] Application Starting...
+2023-10-23 01:51:35.783 +06:00 [INF] Application Starting...
+2023-10-23 01:55:43.844 +06:00 [INF] Application Starting...
+2023-10-23 01:56:47.038 +06:00 [INF] Application Starting...
+2023-10-23 01:57:38.759 +06:00 [INF] Application Starting...
+2023-10-23 01:57:55.555 +06:00 [ERR] An unhandled exception has occurred while executing the request.
+Amazon.S3.AmazonS3Exception: The specified key does not exist.
+ ---> Amazon.Runtime.Internal.HttpErrorResponseException: Exception of type 'Amazon.Runtime.Internal.HttpErrorResponseException' was thrown.
+   at Amazon.Runtime.HttpWebRequestMessage.GetResponseAsync(CancellationToken cancellationToken)
+   at Amazon.Runtime.Internal.HttpHandler`1.InvokeAsync[T](IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.RedirectHandler.InvokeAsync[T](IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.Unmarshaller.InvokeAsync[T](IExecutionContext executionContext)
+   at Amazon.S3.Internal.AmazonS3ResponseHandler.InvokeAsync[T](IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.ErrorHandler.InvokeAsync[T](IExecutionContext executionContext)
+   --- End of inner exception stack trace ---
+   at Amazon.Runtime.Internal.HttpErrorResponseExceptionHandler.HandleExceptionStream(IRequestContext requestContext, IWebResponseData httpErrorResponse, HttpErrorResponseException exception, Stream responseStream)
+   at Amazon.Runtime.Internal.HttpErrorResponseExceptionHandler.HandleExceptionAsync(IExecutionContext executionContext, HttpErrorResponseException exception)
+   at Amazon.Runtime.Internal.ExceptionHandler`1.HandleAsync(IExecutionContext executionContext, Exception exception)
+   at Amazon.Runtime.Internal.ErrorHandler.ProcessExceptionAsync(IExecutionContext executionContext, Exception exception)
+   at Amazon.Runtime.Internal.ErrorHandler.InvokeAsync[T](IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.CallbackHandler.InvokeAsync[T](IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.Signer.InvokeAsync[T](IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.EndpointDiscoveryHandler.InvokeAsync[T](IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.EndpointDiscoveryHandler.InvokeAsync[T](IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.CredentialsRetriever.InvokeAsync[T](IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.RetryHandler.InvokeAsync[T](IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.RetryHandler.InvokeAsync[T](IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.CallbackHandler.InvokeAsync[T](IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.CallbackHandler.InvokeAsync[T](IExecutionContext executionContext)
+   at Amazon.S3.Internal.AmazonS3ExceptionHandler.InvokeAsync[T](IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.ErrorCallbackHandler.InvokeAsync[T](IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.MetricsHandler.InvokeAsync[T](IExecutionContext executionContext)
+   at AWS.Infrastructure.S3FileService.DownloadFileAsync(String bucketName, String objectKey) in C:\Users\HP\Music\Asp.Net-8-DevSkill-\Assignment_7_AWS\AWS.Infrastructure\S3FileService.cs:line 76
+   at AWS.WEB.Controllers.S3FileController.DownloadFile(String objectKey) in C:\Users\HP\Music\Asp.Net-8-DevSkill-\Assignment_7_AWS\AWS.WEB\Controllers\S3FileController.cs:line 58
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-10-23 02:01:00.004 +06:00 [INF] Application Starting...
+2023-10-23 02:02:44.073 +06:00 [INF] Application Starting...
+2023-10-23 02:04:03.081 +06:00 [ERR] An unhandled exception has occurred while executing the request.
+Amazon.S3.AmazonS3Exception: The specified key does not exist.
+ ---> Amazon.Runtime.Internal.HttpErrorResponseException: Exception of type 'Amazon.Runtime.Internal.HttpErrorResponseException' was thrown.
+   at Amazon.Runtime.HttpWebRequestMessage.GetResponseAsync(CancellationToken cancellationToken)
+   at Amazon.Runtime.Internal.HttpHandler`1.InvokeAsync[T](IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.RedirectHandler.InvokeAsync[T](IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.Unmarshaller.InvokeAsync[T](IExecutionContext executionContext)
+   at Amazon.S3.Internal.AmazonS3ResponseHandler.InvokeAsync[T](IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.ErrorHandler.InvokeAsync[T](IExecutionContext executionContext)
+   --- End of inner exception stack trace ---
+   at Amazon.Runtime.Internal.HttpErrorResponseExceptionHandler.HandleExceptionStream(IRequestContext requestContext, IWebResponseData httpErrorResponse, HttpErrorResponseException exception, Stream responseStream)
+   at Amazon.Runtime.Internal.HttpErrorResponseExceptionHandler.HandleExceptionAsync(IExecutionContext executionContext, HttpErrorResponseException exception)
+   at Amazon.Runtime.Internal.ExceptionHandler`1.HandleAsync(IExecutionContext executionContext, Exception exception)
+   at Amazon.Runtime.Internal.ErrorHandler.ProcessExceptionAsync(IExecutionContext executionContext, Exception exception)
+   at Amazon.Runtime.Internal.ErrorHandler.InvokeAsync[T](IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.CallbackHandler.InvokeAsync[T](IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.Signer.InvokeAsync[T](IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.EndpointDiscoveryHandler.InvokeAsync[T](IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.EndpointDiscoveryHandler.InvokeAsync[T](IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.CredentialsRetriever.InvokeAsync[T](IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.RetryHandler.InvokeAsync[T](IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.RetryHandler.InvokeAsync[T](IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.CallbackHandler.InvokeAsync[T](IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.CallbackHandler.InvokeAsync[T](IExecutionContext executionContext)
+   at Amazon.S3.Internal.AmazonS3ExceptionHandler.InvokeAsync[T](IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.ErrorCallbackHandler.InvokeAsync[T](IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.MetricsHandler.InvokeAsync[T](IExecutionContext executionContext)
+   at AWS.Infrastructure.S3FileService.DownloadFileAsync(String bucketName, String objectKey) in C:\Users\HP\Music\Asp.Net-8-DevSkill-\Assignment_7_AWS\AWS.Infrastructure\S3FileService.cs:line 76
+   at AWS.WEB.Controllers.S3FileController.DownloadFile(String objectKey) in C:\Users\HP\Music\Asp.Net-8-DevSkill-\Assignment_7_AWS\AWS.WEB\Controllers\S3FileController.cs:line 58
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-10-23 02:12:12.376 +06:00 [INF] Application Starting...
+2023-10-23 02:13:00.139 +06:00 [INF] Application Starting...
+2023-10-23 02:13:42.726 +06:00 [INF] Application Starting...
+2023-10-23 02:14:25.183 +06:00 [INF] Application Starting...
+2023-10-23 02:14:34.618 +06:00 [ERR] An unhandled exception has occurred while executing the request.
+Amazon.S3.AmazonS3Exception: The specified key does not exist.
+ ---> Amazon.Runtime.Internal.HttpErrorResponseException: Exception of type 'Amazon.Runtime.Internal.HttpErrorResponseException' was thrown.
+   at Amazon.Runtime.HttpWebRequestMessage.GetResponseAsync(CancellationToken cancellationToken)
+   at Amazon.Runtime.Internal.HttpHandler`1.InvokeAsync[T](IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.RedirectHandler.InvokeAsync[T](IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.Unmarshaller.InvokeAsync[T](IExecutionContext executionContext)
+   at Amazon.S3.Internal.AmazonS3ResponseHandler.InvokeAsync[T](IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.ErrorHandler.InvokeAsync[T](IExecutionContext executionContext)
+   --- End of inner exception stack trace ---
+   at Amazon.Runtime.Internal.HttpErrorResponseExceptionHandler.HandleExceptionStream(IRequestContext requestContext, IWebResponseData httpErrorResponse, HttpErrorResponseException exception, Stream responseStream)
+   at Amazon.Runtime.Internal.HttpErrorResponseExceptionHandler.HandleExceptionAsync(IExecutionContext executionContext, HttpErrorResponseException exception)
+   at Amazon.Runtime.Internal.ExceptionHandler`1.HandleAsync(IExecutionContext executionContext, Exception exception)
+   at Amazon.Runtime.Internal.ErrorHandler.ProcessExceptionAsync(IExecutionContext executionContext, Exception exception)
+   at Amazon.Runtime.Internal.ErrorHandler.InvokeAsync[T](IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.CallbackHandler.InvokeAsync[T](IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.Signer.InvokeAsync[T](IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.EndpointDiscoveryHandler.InvokeAsync[T](IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.EndpointDiscoveryHandler.InvokeAsync[T](IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.CredentialsRetriever.InvokeAsync[T](IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.RetryHandler.InvokeAsync[T](IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.RetryHandler.InvokeAsync[T](IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.CallbackHandler.InvokeAsync[T](IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.CallbackHandler.InvokeAsync[T](IExecutionContext executionContext)
+   at Amazon.S3.Internal.AmazonS3ExceptionHandler.InvokeAsync[T](IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.ErrorCallbackHandler.InvokeAsync[T](IExecutionContext executionContext)
+   at Amazon.Runtime.Internal.MetricsHandler.InvokeAsync[T](IExecutionContext executionContext)
+   at AWS.Infrastructure.S3FileService.DownloadFileAsync(String bucketName, String objectKey) in C:\Users\HP\Music\Asp.Net-8-DevSkill-\Assignment_7_AWS\AWS.Infrastructure\S3FileService.cs:line 76
+   at AWS.WEB.Controllers.S3FileController.DownloadFile(String objectKey) in C:\Users\HP\Music\Asp.Net-8-DevSkill-\Assignment_7_AWS\AWS.WEB\Controllers\S3FileController.cs:line 66
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-10-23 02:16:49.045 +06:00 [INF] Application Starting...
+2023-10-23 02:18:40.580 +06:00 [INF] Application Starting...

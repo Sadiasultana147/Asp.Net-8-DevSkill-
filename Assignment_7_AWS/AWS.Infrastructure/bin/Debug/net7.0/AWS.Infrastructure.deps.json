@@ -1,0 +1,220 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "AWS.Infrastructure/1.0.0": {
+        "dependencies": {
+          "AWS.Application": "1.0.0",
+          "AWSSDK.DynamoDBv2": "3.7.203.7",
+          "AWSSDK.S3": "3.7.205.15",
+          "AWSSDK.SQS": "3.7.200.60",
+          "Autofac": "7.1.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "7.0.0"
+        },
+        "runtime": {
+          "AWS.Infrastructure.dll": {}
+        }
+      },
+      "Autofac/7.1.0": {
+        "dependencies": {
+          "System.Diagnostics.DiagnosticSource": "4.7.1"
+        },
+        "runtime": {
+          "lib/net7.0/Autofac.dll": {
+            "assemblyVersion": "7.1.0.0",
+            "fileVersion": "7.1.0.0"
+          }
+        }
+      },
+      "AWSSDK.Core/3.7.204.6": {
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.204.6"
+          }
+        }
+      },
+      "AWSSDK.DynamoDBv2/3.7.203.7": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.204.6"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.DynamoDBv2.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.203.7"
+          }
+        }
+      },
+      "AWSSDK.S3/3.7.205.15": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.204.6"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.S3.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.205.15"
+          }
+        }
+      },
+      "AWSSDK.SQS/3.7.200.60": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.204.6"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.SQS.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.200.60"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Http.Features/5.0.17": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "7.0.0",
+          "System.IO.Pipelines": "5.0.2"
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.AspNetCore.Http.Features.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.1722.21507"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration.Abstractions/7.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "7.0.0"
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        }
+      },
+      "Microsoft.Extensions.Primitives/7.0.0": {
+        "runtime": {
+          "lib/net7.0/Microsoft.Extensions.Primitives.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        }
+      },
+      "System.Diagnostics.DiagnosticSource/4.7.1": {},
+      "System.IO.Pipelines/5.0.2": {
+        "runtime": {
+          "lib/netcoreapp3.0/System.IO.Pipelines.dll": {
+            "assemblyVersion": "5.0.0.1",
+            "fileVersion": "5.0.1522.11506"
+          }
+        }
+      },
+      "AWS.Application/1.0.0": {
+        "dependencies": {
+          "AWS.Domain": "1.0.0",
+          "Microsoft.AspNetCore.Http.Features": "5.0.17"
+        },
+        "runtime": {
+          "AWS.Application.dll": {}
+        }
+      },
+      "AWS.Domain/1.0.0": {
+        "dependencies": {
+          "AWSSDK.DynamoDBv2": "3.7.203.7"
+        },
+        "runtime": {
+          "AWS.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AWS.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Autofac/7.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XCXmpxhOnuztTTRkzG+8B8KU8SR8WjBYwSntndjlsFR5lM3K/g43r9hUwewIPDBJwDrmZU3TjmNdH6s8IF3VFQ==",
+      "path": "autofac/7.1.0",
+      "hashPath": "autofac.7.1.0.nupkg.sha512"
+    },
+    "AWSSDK.Core/3.7.204.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2zwFCB0rOhVBkNxMt06YWaunvw7ecQj2JGC/ehplGoAzqEkbVPMZHVX4cTkBMWORiRd8e6jIBr6VsYGLZZqnJQ==",
+      "path": "awssdk.core/3.7.204.6",
+      "hashPath": "awssdk.core.3.7.204.6.nupkg.sha512"
+    },
+    "AWSSDK.DynamoDBv2/3.7.203.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BGLq4lPnGOfn3iLfzXjeMC9ww0zC0X8px50bwA7YrOvLZYvYLqIpOpL3YWqHLE9vWW32s+KI7A0b1yompJrw3A==",
+      "path": "awssdk.dynamodbv2/3.7.203.7",
+      "hashPath": "awssdk.dynamodbv2.3.7.203.7.nupkg.sha512"
+    },
+    "AWSSDK.S3/3.7.205.15": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rt1/0G94yYdgDRcUvaqWMyeQsTS9H/jp8LN7VqYJ2bM7YtRbl/gHVfTcRm7EaqbjeZj2rIBAxPWjTZAk95GxCA==",
+      "path": "awssdk.s3/3.7.205.15",
+      "hashPath": "awssdk.s3.3.7.205.15.nupkg.sha512"
+    },
+    "AWSSDK.SQS/3.7.200.60": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-raJdPBXEk7kpXpV22w0fhZqQquEDNgAMbMBX7ErTpjxxHFqQjgUvMZ2epdXy8CVAaWTwz6Zde5AcuXUjvUVihg==",
+      "path": "awssdk.sqs/3.7.200.60",
+      "hashPath": "awssdk.sqs.3.7.200.60.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Http.Features/5.0.17": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3jG2xS+dx8DDCGV/F+STdPTg89lX3ao3dF/VEPvJaz3wzBIjuadipTtYNEXDIVuOPZwb6jdmhrX9jkzOIBm5cw==",
+      "path": "microsoft.aspnetcore.http.features/5.0.17",
+      "hashPath": "microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.Abstractions/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-f34u2eaqIjNO9YLHBz8rozVZ+TcFiFs0F3r7nUJd7FRkVSxk8u4OpoK226mi49MwexHOR2ibP9MFvRUaLilcQQ==",
+      "path": "microsoft.extensions.configuration.abstractions/7.0.0",
+      "hashPath": "microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Primitives/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-um1KU5kxcRp3CNuI8o/GrZtD4AIOXDk+RLsytjZ9QPok3ttLUelLKpilVPuaFT3TFjOhSibUAso0odbOaCDj3Q==",
+      "path": "microsoft.extensions.primitives/7.0.0",
+      "hashPath": "microsoft.extensions.primitives.7.0.0.nupkg.sha512"
+    },
+    "System.Diagnostics.DiagnosticSource/4.7.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-j81Lovt90PDAq8kLpaJfJKV/rWdWuEk6jfV+MBkee33vzYLEUsy4gXK8laa9V2nZlLM9VM9yA/OOQxxPEJKAMw==",
+      "path": "system.diagnostics.diagnosticsource/4.7.1",
+      "hashPath": "system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"
+    },
+    "System.IO.Pipelines/5.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Iew+dfa6FFiyvWBdRmXApixRY1db+beyutpIck4SOSe0NLM8FD/7AD54MscqVLhvfSMLHO7KadjTRT7fqxOGTA==",
+      "path": "system.io.pipelines/5.0.2",
+      "hashPath": "system.io.pipelines.5.0.2.nupkg.sha512"
+    },
+    "AWS.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AWS.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,59 @@
+﻿@model IEnumerable<AWS.Domain.S3FileModel>
+
+@{
+    string defaultBucketName = "sadia-aspnet-b8"; 
+}
+
+<h1 class="mt-4">List of Files in S3 Bucket</h1>
+
+<div class="mb-3">
+    <a asp-action="UploadFile" asp-controller="S3File" class="btn btn-success">Upload File</a>
+</div>
+
+<table id="fileTable" class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>File Name</th>
+            
+            <th>Action</th>
+        </tr>
+    </thead>
+</table>
+
+@section Scripts {
+    <link href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#fileTable').DataTable({
+                "processing": true,
+                "serverSide": true,
+                "ajax": {
+                    "url": "/S3File/ListFilesPost",
+                    "type": "POST"
+                },
+                "columns": [
+                    { "data": "fileName" },
+                    {
+                        "data": null,
+                        "render": function (data, type, row) {
+                            return '<a href="/S3File/DownloadFile?bucketName=@defaultBucketName&objectKey=' + row.fileName + '" class="btn btn-primary download-button">Download</a>' +
+                                '<a href="/S3File/DeleteFile?bucketName=@defaultBucketName&objectKey=' + row.fileName + '" class="btn btn-danger">Delete</a>';
+                        }
+                    }
+                ]
+            });
+
+            // Add a click event handler for download buttons
+            $('#fileTable').on('click', '.download-button', function (e) {
+                e.preventDefault(); // Prevent the link from navigating
+
+                var downloadUrl = $(this).attr('href');
+                window.open(downloadUrl, '_blank'); // Open the URL in a new tab or window
+            });
+        });
+    </script>
+
+
+}

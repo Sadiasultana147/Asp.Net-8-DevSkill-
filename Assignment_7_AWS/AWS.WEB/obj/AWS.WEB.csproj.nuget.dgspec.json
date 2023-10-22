@@ -1,0 +1,322 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\HP\\Music\\Asp.Net-8-DevSkill-\\Assignment_7_AWS\\AWS.WEB\\AWS.WEB.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\HP\\Music\\Asp.Net-8-DevSkill-\\Assignment_7_AWS\\AWS.Application\\AWS.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\HP\\Music\\Asp.Net-8-DevSkill-\\Assignment_7_AWS\\AWS.Application\\AWS.Application.csproj",
+        "projectName": "AWS.Application",
+        "projectPath": "C:\\Users\\HP\\Music\\Asp.Net-8-DevSkill-\\Assignment_7_AWS\\AWS.Application\\AWS.Application.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HP\\Music\\Asp.Net-8-DevSkill-\\Assignment_7_AWS\\AWS.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\HP\\Music\\Asp.Net-8-DevSkill-\\Assignment_7_AWS\\AWS.Domain\\AWS.Domain.csproj": {
+                "projectPath": "C:\\Users\\HP\\Music\\Asp.Net-8-DevSkill-\\Assignment_7_AWS\\AWS.Domain\\AWS.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\HP\\Music\\Asp.Net-8-DevSkill-\\Assignment_7_AWS\\AWS.Domain\\AWS.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\HP\\Music\\Asp.Net-8-DevSkill-\\Assignment_7_AWS\\AWS.Domain\\AWS.Domain.csproj",
+        "projectName": "AWS.Domain",
+        "projectPath": "C:\\Users\\HP\\Music\\Asp.Net-8-DevSkill-\\Assignment_7_AWS\\AWS.Domain\\AWS.Domain.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HP\\Music\\Asp.Net-8-DevSkill-\\Assignment_7_AWS\\AWS.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AWSSDK.DynamoDBv2": {
+              "target": "Package",
+              "version": "[3.7.203.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\HP\\Music\\Asp.Net-8-DevSkill-\\Assignment_7_AWS\\AWS.Infrastructure\\AWS.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\HP\\Music\\Asp.Net-8-DevSkill-\\Assignment_7_AWS\\AWS.Infrastructure\\AWS.Infrastructure.csproj",
+        "projectName": "AWS.Infrastructure",
+        "projectPath": "C:\\Users\\HP\\Music\\Asp.Net-8-DevSkill-\\Assignment_7_AWS\\AWS.Infrastructure\\AWS.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HP\\Music\\Asp.Net-8-DevSkill-\\Assignment_7_AWS\\AWS.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\HP\\Music\\Asp.Net-8-DevSkill-\\Assignment_7_AWS\\AWS.Application\\AWS.Application.csproj": {
+                "projectPath": "C:\\Users\\HP\\Music\\Asp.Net-8-DevSkill-\\Assignment_7_AWS\\AWS.Application\\AWS.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AWSSDK.DynamoDBv2": {
+              "target": "Package",
+              "version": "[3.7.203.7, )"
+            },
+            "AWSSDK.S3": {
+              "target": "Package",
+              "version": "[3.7.205.15, )"
+            },
+            "AWSSDK.SQS": {
+              "target": "Package",
+              "version": "[3.7.200.60, )"
+            },
+            "Autofac": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\HP\\Music\\Asp.Net-8-DevSkill-\\Assignment_7_AWS\\AWS.WEB\\AWS.WEB.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\HP\\Music\\Asp.Net-8-DevSkill-\\Assignment_7_AWS\\AWS.WEB\\AWS.WEB.csproj",
+        "projectName": "AWS.WEB",
+        "projectPath": "C:\\Users\\HP\\Music\\Asp.Net-8-DevSkill-\\Assignment_7_AWS\\AWS.WEB\\AWS.WEB.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HP\\Music\\Asp.Net-8-DevSkill-\\Assignment_7_AWS\\AWS.WEB\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\HP\\Music\\Asp.Net-8-DevSkill-\\Assignment_7_AWS\\AWS.Application\\AWS.Application.csproj": {
+                "projectPath": "C:\\Users\\HP\\Music\\Asp.Net-8-DevSkill-\\Assignment_7_AWS\\AWS.Application\\AWS.Application.csproj"
+              },
+              "C:\\Users\\HP\\Music\\Asp.Net-8-DevSkill-\\Assignment_7_AWS\\AWS.Infrastructure\\AWS.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\HP\\Music\\Asp.Net-8-DevSkill-\\Assignment_7_AWS\\AWS.Infrastructure\\AWS.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.AspNet.Mvc": {
+              "target": "Package",
+              "version": "[5.2.9, )"
+            },
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.12, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

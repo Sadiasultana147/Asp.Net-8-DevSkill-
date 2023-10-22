@@ -1,0 +1,40 @@
+﻿@model string
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Send a Message</title>
+    <!-- Add Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>Send a Message</h1>
+
+        @if (!string.IsNullOrEmpty(TempData["SuccessMessage"] as string))
+        {
+            <div class="alert alert-success">
+                @TempData["SuccessMessage"]
+            </div>
+        }
+
+        @if (!string.IsNullOrEmpty(TempData["ErrorMessage"] as string))
+        {
+            <div class="alert alert-danger">
+                @TempData["ErrorMessage"]
+            </div>
+        }
+
+        <form method="post" asp-action="SendMessage">
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <input type="text" class="form-control" name="message" id="message" placeholder="Enter your message here" />
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+    </div>
+
+    <!-- Add Bootstrap JS if needed -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
